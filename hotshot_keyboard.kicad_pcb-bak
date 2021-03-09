@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 7)
-    (tracks 2)
+    (tracks 0)
     (zones 0)
     (modules 25)
     (nets 47)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -139,15 +139,17 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.254)
+    (trace_width 0.25)
     (via_dia 0.8)
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net +5V)
     (add_net COL0)
     (add_net COL1)
     (add_net D+)
     (add_net D-)
+    (add_net GND)
     (add_net "Net-(C1-Pad1)")
     (add_net "Net-(C2-Pad1)")
     (add_net "Net-(C3-Pad1)")
@@ -187,17 +189,6 @@
     (add_net "Net-(USB1-Pad5)")
     (add_net ROW0)
     (add_net ROW1)
-  )
-
-  (net_class Power ""
-    (clearance 0.2)
-    (trace_width 0.381)
-    (via_dia 0.8)
-    (via_drill 0.4)
-    (uvia_dia 0.3)
-    (uvia_drill 0.1)
-    (add_net +5V)
-    (add_net GND)
     (add_net VCC)
   )
 
@@ -503,7 +494,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 604824DE)
-    (at 135.73125 38.1 270)
+    (at 135.73125 38.1 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /604903E4)
@@ -527,9 +518,9 @@
     (fp_line (start -1.68 -0.95) (end 1.68 -0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.68 -0.95) (end 1.68 0.95) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.68 0.95) (end -1.68 0.95) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.243902)
+    (pad 2 smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.243902)
       (net 18 "Net-(R3-Pad2)"))
-    (pad 1 smd roundrect (at -0.9125 0 270) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.243902)
+    (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.243902)
       (net 19 D-))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -1039,7 +1030,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 604823B0)
-    (at 139.7 45.24375 90)
+    (at 152.654 38.039 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60496AD5)
@@ -1111,7 +1102,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 6048238E)
-    (at 148.43125 45.24375 90)
+    (at 151.318 43.053 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /604958C6)
@@ -1261,8 +1252,5 @@
   (gr_line (start 213.51875 26.9875) (end 213.51875 60.325) (layer Edge.Cuts) (width 0.05) (tstamp 6048478A))
   (gr_arc (start 211.1375 60.325) (end 211.1375 62.70625) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 211.1375 26.9875) (end 213.51875 26.9875) (angle -90) (layer Dwgs.User) (width 0.15))
-
-  (segment (start 138.10625 30.69375) (end 138.10625 34.93125) (width 0.254) (layer B.Cu) (net 19))
-  (segment (start 138.10625 34.93125) (end 135.73125 37.30625) (width 0.254) (layer B.Cu) (net 19))
 
 )

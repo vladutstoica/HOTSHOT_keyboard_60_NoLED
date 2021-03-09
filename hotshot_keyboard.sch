@@ -25,17 +25,6 @@ F 3 "" H 4900 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U1
-U 1 1 6047E6B2
-P 5000 3700
-F 0 "U1" H 5000 1811 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 5000 1720 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5000 3700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5000 3700 50  0001 C CNN
-	1    5000 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0102
 U 1 1 60483A2C
 P 4500 5600
@@ -69,12 +58,7 @@ F 3 "" H 6200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 5500 4900 5500
-Wire Wire Line
 	4500 5500 4500 5600
-Connection ~ 4900 5500
-Wire Wire Line
-	4900 5500 4500 5500
 $Comp
 L Device:R_Small R2
 U 1 1 6048F92C
@@ -360,12 +344,6 @@ D-
 Wire Wire Line
 	4900 1900 4900 1750
 Wire Wire Line
-	4900 1900 5000 1900
-Connection ~ 4900 1900
-Connection ~ 5000 1900
-Wire Wire Line
-	5000 1900 5100 1900
-Wire Wire Line
 	4250 2050 4250 2200
 Wire Wire Line
 	4250 2200 4400 2200
@@ -633,4 +611,20 @@ Wire Wire Line
 	6200 4450 6200 4300
 Wire Wire Line
 	6200 4300 6050 4300
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 6055B00A
+P 5000 3700
+F 0 "U1" H 5000 1811 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 5000 1720 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5000 3700 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5000 3700 50  0001 C CNN
+	1    5000 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1900 5000 1900
+Wire Wire Line
+	4500 5500 4900 5500
+Connection ~ 4900 1900
 $EndSCHEMATC

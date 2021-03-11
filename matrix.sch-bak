@@ -13,152 +13,2097 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	5300 4600 5050 4600
-Connection ~ 5300 4600
-Wire Wire Line
-	6300 4600 5300 4600
-Wire Wire Line
-	5300 3600 5050 3600
-Connection ~ 5300 3600
-Wire Wire Line
-	6300 3600 5300 3600
-Wire Wire Line
-	6300 4350 6300 4400
-Wire Wire Line
-	6650 3150 6650 2900
-Connection ~ 6650 3150
-Wire Wire Line
-	6650 4150 6650 3150
-Wire Wire Line
-	5650 3150 5650 2900
-Connection ~ 5650 3150
-Wire Wire Line
-	5650 4150 5650 3150
-Wire Wire Line
-	6450 4350 6300 4350
-Wire Wire Line
-	5300 4350 5300 4400
-Wire Wire Line
-	5450 4350 5300 4350
-$Comp
-L Device:D_Small D?
-U 1 1 604C9985
-P 6300 4500
-AR Path="/604C9985" Ref="D?"  Part="1" 
-AR Path="/604A8D0E/604C9985" Ref="D?"  Part="1" 
-F 0 "D?" V 6346 4430 50  0000 R CNN
-F 1 "D_Small" V 6255 4430 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6300 4500 50  0001 C CNN
-F 3 "~" V 6300 4500 50  0001 C CNN
-	1    6300 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 604C998B
-P 5300 4500
-AR Path="/604C998B" Ref="D?"  Part="1" 
-AR Path="/604A8D0E/604C998B" Ref="D?"  Part="1" 
-F 0 "D?" V 5346 4430 50  0000 R CNN
-F 1 "D_Small" V 5255 4430 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 5300 4500 50  0001 C CNN
-F 3 "~" V 5300 4500 50  0001 C CNN
-	1    5300 4500
-	0    -1   -1   0   
-$EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 604C9991
-P 6500 4200
-AR Path="/604C9991" Ref="MX?"  Part="1" 
-AR Path="/604A8D0E/604C9991" Ref="MX?"  Part="1" 
-F 0 "MX?" H 6533 4423 60  0000 C CNN
-F 1 "MX-NoLED" H 6533 4349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 5875 4175 60  0001 C CNN
-F 3 "" H 5875 4175 60  0001 C CNN
-	1    6500 4200
+U 1 1 605B6001
+P 2850 2650
+AR Path="/605B6001" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605B6001" Ref="MX1"  Part="1" 
+F 0 "MX1" H 2650 2700 60  0000 C CNN
+F 1 "ESC" H 2650 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2225 2625 60  0001 C CNN
+F 3 "" H 2225 2625 60  0001 C CNN
+	1    2850 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 604C9997
-P 5500 4200
-AR Path="/604C9997" Ref="MX?"  Part="1" 
-AR Path="/604A8D0E/604C9997" Ref="MX?"  Part="1" 
-F 0 "MX?" H 5533 4423 60  0000 C CNN
-F 1 "MX-NoLED" H 5533 4349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 4875 4175 60  0001 C CNN
-F 3 "" H 4875 4175 60  0001 C CNN
-	1    5500 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 3350 6300 3400
-Wire Wire Line
-	6450 3350 6300 3350
-$Comp
 L Device:D_Small D?
-U 1 1 604C999F
-P 6300 3500
-AR Path="/604C999F" Ref="D?"  Part="1" 
-AR Path="/604A8D0E/604C999F" Ref="D?"  Part="1" 
-F 0 "D?" V 6346 3430 50  0000 R CNN
-F 1 "D_Small" V 6255 3430 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6300 3500 50  0001 C CNN
-F 3 "~" V 6300 3500 50  0001 C CNN
-	1    6300 3500
+U 1 1 605B681E
+P 2600 2900
+AR Path="/605B681E" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605B681E" Ref="D1"  Part="1" 
+F 0 "D1" V 2646 2830 50  0000 R CNN
+F 1 "D_Small" V 2555 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2600 2900 50  0001 C CNN
+F 3 "~" V 2600 2900 50  0001 C CNN
+	1    2600 2900
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2600 2800 2800 2800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 604C99A5
-P 6500 3200
-AR Path="/604C99A5" Ref="MX?"  Part="1" 
-AR Path="/604A8D0E/604C99A5" Ref="MX?"  Part="1" 
-F 0 "MX?" H 6533 3423 60  0000 C CNN
-F 1 "MX-NoLED" H 6533 3349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 5875 3175 60  0001 C CNN
-F 3 "" H 5875 3175 60  0001 C CNN
-	1    6500 3200
+U 1 1 605BB374
+P 3350 2650
+AR Path="/605BB374" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BB374" Ref="MX2"  Part="1" 
+F 0 "MX2" H 3150 2700 60  0000 C CNN
+F 1 "#1" H 3150 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2725 2625 60  0001 C CNN
+F 3 "" H 2725 2625 60  0001 C CNN
+	1    3350 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 3350 5300 3400
-Wire Wire Line
-	5450 3350 5300 3350
 $Comp
 L Device:D_Small D?
-U 1 1 604C99AD
-P 5300 3500
-AR Path="/604C99AD" Ref="D?"  Part="1" 
-AR Path="/604A8D0E/604C99AD" Ref="D?"  Part="1" 
-F 0 "D?" V 5346 3430 50  0000 R CNN
-F 1 "D_Small" V 5255 3430 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 5300 3500 50  0001 C CNN
-F 3 "~" V 5300 3500 50  0001 C CNN
-	1    5300 3500
+U 1 1 605BB37E
+P 3100 2900
+AR Path="/605BB37E" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BB37E" Ref="D2"  Part="1" 
+F 0 "D2" V 3146 2830 50  0000 R CNN
+F 1 "D_Small" V 3055 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3100 2900 50  0001 C CNN
+F 3 "~" V 3100 2900 50  0001 C CNN
+	1    3100 2900
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3100 2800 3300 2800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 604C99B3
-P 5500 3200
-AR Path="/604C99B3" Ref="MX?"  Part="1" 
-AR Path="/604A8D0E/604C99B3" Ref="MX?"  Part="1" 
-F 0 "MX?" H 5533 3423 60  0000 C CNN
-F 1 "MX-NoLED" H 5533 3349 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U" H 4875 3175 60  0001 C CNN
-F 3 "" H 4875 3175 60  0001 C CNN
-	1    5500 3200
+U 1 1 605BBF24
+P 3850 2650
+AR Path="/605BBF24" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BBF24" Ref="MX3"  Part="1" 
+F 0 "MX3" H 3650 2700 60  0000 C CNN
+F 1 "#2" H 3650 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3225 2625 60  0001 C CNN
+F 3 "" H 3225 2625 60  0001 C CNN
+	1    3850 2650
 	1    0    0    -1  
 $EndComp
-Text HLabel 5650 2900 1    50   Input ~ 0
-COL0
-Text HLabel 6650 2900 1    50   Input ~ 0
-COL1
-Text HLabel 5050 4600 0    50   Input ~ 0
-ROW1
-Text HLabel 5050 3600 0    50   Input ~ 0
+$Comp
+L Device:D_Small D?
+U 1 1 605BBF3E
+P 3600 2900
+AR Path="/605BBF3E" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BBF3E" Ref="D3"  Part="1" 
+F 0 "D3" V 3646 2830 50  0000 R CNN
+F 1 "D_Small" V 3555 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 2900 50  0001 C CNN
+F 3 "~" V 3600 2900 50  0001 C CNN
+	1    3600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 2800 3800 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605BCC9C
+P 2850 3150
+AR Path="/605BCC9C" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BCC9C" Ref="MX15"  Part="1" 
+F 0 "MX15" H 2650 3200 60  0000 C CNN
+F 1 "TAB" H 2650 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2225 3125 60  0001 C CNN
+F 3 "" H 2225 3125 60  0001 C CNN
+	1    2850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605BCCB6
+P 2600 3400
+AR Path="/605BCCB6" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BCCB6" Ref="D15"  Part="1" 
+F 0 "D15" V 2646 3330 50  0000 R CNN
+F 1 "D_Small" V 2555 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2600 3400 50  0001 C CNN
+F 3 "~" V 2600 3400 50  0001 C CNN
+	1    2600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3300 2800 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605BCCC1
+P 3350 3150
+AR Path="/605BCCC1" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BCCC1" Ref="MX16"  Part="1" 
+F 0 "MX16" H 3150 3200 60  0000 C CNN
+F 1 "Q" H 3150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2725 3125 60  0001 C CNN
+F 3 "" H 2725 3125 60  0001 C CNN
+	1    3350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605BCCCB
+P 3100 3400
+AR Path="/605BCCCB" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BCCCB" Ref="D16"  Part="1" 
+F 0 "D16" V 3146 3330 50  0000 R CNN
+F 1 "D_Small" V 3055 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3100 3400 50  0001 C CNN
+F 3 "~" V 3100 3400 50  0001 C CNN
+	1    3100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3300 3300 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605BCCD6
+P 3850 3150
+AR Path="/605BCCD6" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BCCD6" Ref="MX17"  Part="1" 
+F 0 "MX17" H 3650 3200 60  0000 C CNN
+F 1 "W" H 3650 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3225 3125 60  0001 C CNN
+F 3 "" H 3225 3125 60  0001 C CNN
+	1    3850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605BCCE0
+P 3600 3400
+AR Path="/605BCCE0" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BCCE0" Ref="D17"  Part="1" 
+F 0 "D17" V 3646 3330 50  0000 R CNN
+F 1 "D_Small" V 3555 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 3400 50  0001 C CNN
+F 3 "~" V 3600 3400 50  0001 C CNN
+	1    3600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 3300 3800 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605BF224
+P 2850 3650
+AR Path="/605BF224" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BF224" Ref="MX29"  Part="1" 
+F 0 "MX29" H 2650 3700 60  0000 C CNN
+F 1 "CAPS" H 2650 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2225 3625 60  0001 C CNN
+F 3 "" H 2225 3625 60  0001 C CNN
+	1    2850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605BF23E
+P 2600 3900
+AR Path="/605BF23E" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BF23E" Ref="D29"  Part="1" 
+F 0 "D29" V 2646 3830 50  0000 R CNN
+F 1 "D_Small" V 2555 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2600 3900 50  0001 C CNN
+F 3 "~" V 2600 3900 50  0001 C CNN
+	1    2600 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3800 2800 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605BF249
+P 3350 3650
+AR Path="/605BF249" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BF249" Ref="MX30"  Part="1" 
+F 0 "MX30" H 3150 3700 60  0000 C CNN
+F 1 "A" H 3150 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2725 3625 60  0001 C CNN
+F 3 "" H 2725 3625 60  0001 C CNN
+	1    3350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605BF253
+P 3100 3900
+AR Path="/605BF253" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BF253" Ref="D30"  Part="1" 
+F 0 "D30" V 3146 3830 50  0000 R CNN
+F 1 "D_Small" V 3055 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3100 3900 50  0001 C CNN
+F 3 "~" V 3100 3900 50  0001 C CNN
+	1    3100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3800 3300 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605BF25E
+P 3850 3650
+AR Path="/605BF25E" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605BF25E" Ref="MX31"  Part="1" 
+F 0 "MX31" H 3650 3700 60  0000 C CNN
+F 1 "S" H 3650 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3225 3625 60  0001 C CNN
+F 3 "" H 3225 3625 60  0001 C CNN
+	1    3850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605BF268
+P 3600 3900
+AR Path="/605BF268" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605BF268" Ref="D31"  Part="1" 
+F 0 "D31" V 3646 3830 50  0000 R CNN
+F 1 "D_Small" V 3555 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 3900 50  0001 C CNN
+F 3 "~" V 3600 3900 50  0001 C CNN
+	1    3600 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 3800 3800 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFC67
+P 4350 2650
+AR Path="/605CFC67" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFC67" Ref="MX4"  Part="1" 
+F 0 "MX4" H 4150 2700 60  0000 C CNN
+F 1 "#3" H 4150 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3725 2625 60  0001 C CNN
+F 3 "" H 3725 2625 60  0001 C CNN
+	1    4350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFC71
+P 4100 2900
+AR Path="/605CFC71" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFC71" Ref="D4"  Part="1" 
+F 0 "D4" V 4146 2830 50  0000 R CNN
+F 1 "D_Small" V 4055 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4100 2900 50  0001 C CNN
+F 3 "~" V 4100 2900 50  0001 C CNN
+	1    4100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2800 4300 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFC7C
+P 4850 2650
+AR Path="/605CFC7C" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFC7C" Ref="MX5"  Part="1" 
+F 0 "MX5" H 4650 2700 60  0000 C CNN
+F 1 "#4" H 4650 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4225 2625 60  0001 C CNN
+F 3 "" H 4225 2625 60  0001 C CNN
+	1    4850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFC86
+P 4600 2900
+AR Path="/605CFC86" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFC86" Ref="D5"  Part="1" 
+F 0 "D5" V 4646 2830 50  0000 R CNN
+F 1 "D_Small" V 4555 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4600 2900 50  0001 C CNN
+F 3 "~" V 4600 2900 50  0001 C CNN
+	1    4600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 2800 4800 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFC91
+P 5350 2650
+AR Path="/605CFC91" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFC91" Ref="MX6"  Part="1" 
+F 0 "MX6" H 5150 2700 60  0000 C CNN
+F 1 "#5" H 5150 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4725 2625 60  0001 C CNN
+F 3 "" H 4725 2625 60  0001 C CNN
+	1    5350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFC9B
+P 5100 2900
+AR Path="/605CFC9B" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFC9B" Ref="D6"  Part="1" 
+F 0 "D6" V 5146 2830 50  0000 R CNN
+F 1 "D_Small" V 5055 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5100 2900 50  0001 C CNN
+F 3 "~" V 5100 2900 50  0001 C CNN
+	1    5100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 2800 5300 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFCA6
+P 4350 3150
+AR Path="/605CFCA6" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFCA6" Ref="MX18"  Part="1" 
+F 0 "MX18" H 4150 3200 60  0000 C CNN
+F 1 "E" H 4150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3725 3125 60  0001 C CNN
+F 3 "" H 3725 3125 60  0001 C CNN
+	1    4350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFCB0
+P 4100 3400
+AR Path="/605CFCB0" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFCB0" Ref="D18"  Part="1" 
+F 0 "D18" V 4146 3330 50  0000 R CNN
+F 1 "D_Small" V 4055 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4100 3400 50  0001 C CNN
+F 3 "~" V 4100 3400 50  0001 C CNN
+	1    4100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 3300 4300 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFCBB
+P 4850 3150
+AR Path="/605CFCBB" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFCBB" Ref="MX19"  Part="1" 
+F 0 "MX19" H 4650 3200 60  0000 C CNN
+F 1 "R" H 4650 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4225 3125 60  0001 C CNN
+F 3 "" H 4225 3125 60  0001 C CNN
+	1    4850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFCC5
+P 4600 3400
+AR Path="/605CFCC5" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFCC5" Ref="D19"  Part="1" 
+F 0 "D19" V 4646 3330 50  0000 R CNN
+F 1 "D_Small" V 4555 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4600 3400 50  0001 C CNN
+F 3 "~" V 4600 3400 50  0001 C CNN
+	1    4600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 3300 4800 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFCD0
+P 5350 3150
+AR Path="/605CFCD0" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFCD0" Ref="MX20"  Part="1" 
+F 0 "MX20" H 5150 3200 60  0000 C CNN
+F 1 "T" H 5150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4725 3125 60  0001 C CNN
+F 3 "" H 4725 3125 60  0001 C CNN
+	1    5350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFCDA
+P 5100 3400
+AR Path="/605CFCDA" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFCDA" Ref="D20"  Part="1" 
+F 0 "D20" V 5146 3330 50  0000 R CNN
+F 1 "D_Small" V 5055 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5100 3400 50  0001 C CNN
+F 3 "~" V 5100 3400 50  0001 C CNN
+	1    5100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 3300 5300 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFCE5
+P 4350 3650
+AR Path="/605CFCE5" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFCE5" Ref="MX32"  Part="1" 
+F 0 "MX32" H 4150 3700 60  0000 C CNN
+F 1 "D" H 4150 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3725 3625 60  0001 C CNN
+F 3 "" H 3725 3625 60  0001 C CNN
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFCEF
+P 4100 3900
+AR Path="/605CFCEF" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFCEF" Ref="D32"  Part="1" 
+F 0 "D32" V 4146 3830 50  0000 R CNN
+F 1 "D_Small" V 4055 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4100 3900 50  0001 C CNN
+F 3 "~" V 4100 3900 50  0001 C CNN
+	1    4100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 3800 4300 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFCFA
+P 4850 3650
+AR Path="/605CFCFA" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFCFA" Ref="MX33"  Part="1" 
+F 0 "MX33" H 4650 3700 60  0000 C CNN
+F 1 "F" H 4650 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4225 3625 60  0001 C CNN
+F 3 "" H 4225 3625 60  0001 C CNN
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFD04
+P 4600 3900
+AR Path="/605CFD04" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFD04" Ref="D33"  Part="1" 
+F 0 "D33" V 4646 3830 50  0000 R CNN
+F 1 "D_Small" V 4555 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4600 3900 50  0001 C CNN
+F 3 "~" V 4600 3900 50  0001 C CNN
+	1    4600 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 3800 4800 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605CFD0F
+P 5350 3650
+AR Path="/605CFD0F" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605CFD0F" Ref="MX34"  Part="1" 
+F 0 "MX34" H 5150 3700 60  0000 C CNN
+F 1 "G" H 5150 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4725 3625 60  0001 C CNN
+F 3 "" H 4725 3625 60  0001 C CNN
+	1    5350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605CFD19
+P 5100 3900
+AR Path="/605CFD19" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605CFD19" Ref="D34"  Part="1" 
+F 0 "D34" V 5146 3830 50  0000 R CNN
+F 1 "D_Small" V 5055 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5100 3900 50  0001 C CNN
+F 3 "~" V 5100 3900 50  0001 C CNN
+	1    5100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 3800 5300 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C0A
+P 5850 2650
+AR Path="/605E0C0A" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C0A" Ref="MX7"  Part="1" 
+F 0 "MX7" H 5650 2700 60  0000 C CNN
+F 1 "#6" H 5650 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5225 2625 60  0001 C CNN
+F 3 "" H 5225 2625 60  0001 C CNN
+	1    5850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0C14
+P 5600 2900
+AR Path="/605E0C14" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0C14" Ref="D7"  Part="1" 
+F 0 "D7" V 5646 2830 50  0000 R CNN
+F 1 "D_Small" V 5555 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5600 2900 50  0001 C CNN
+F 3 "~" V 5600 2900 50  0001 C CNN
+	1    5600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 2800 5800 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C1F
+P 6350 2650
+AR Path="/605E0C1F" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C1F" Ref="MX8"  Part="1" 
+F 0 "MX8" H 6150 2700 60  0000 C CNN
+F 1 "#7" H 6150 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5725 2625 60  0001 C CNN
+F 3 "" H 5725 2625 60  0001 C CNN
+	1    6350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0C29
+P 6100 2900
+AR Path="/605E0C29" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0C29" Ref="D8"  Part="1" 
+F 0 "D8" V 6146 2830 50  0000 R CNN
+F 1 "D_Small" V 6055 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6100 2900 50  0001 C CNN
+F 3 "~" V 6100 2900 50  0001 C CNN
+	1    6100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 2800 6300 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C34
+P 6850 2650
+AR Path="/605E0C34" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C34" Ref="MX9"  Part="1" 
+F 0 "MX9" H 6650 2700 60  0000 C CNN
+F 1 "#8" H 6650 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6225 2625 60  0001 C CNN
+F 3 "" H 6225 2625 60  0001 C CNN
+	1    6850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0C3E
+P 6600 2900
+AR Path="/605E0C3E" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0C3E" Ref="D9"  Part="1" 
+F 0 "D9" V 6646 2830 50  0000 R CNN
+F 1 "D_Small" V 6555 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6600 2900 50  0001 C CNN
+F 3 "~" V 6600 2900 50  0001 C CNN
+	1    6600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 2800 6800 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C49
+P 5850 3150
+AR Path="/605E0C49" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C49" Ref="MX21"  Part="1" 
+F 0 "MX21" H 5650 3200 60  0000 C CNN
+F 1 "Y" H 5650 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5225 3125 60  0001 C CNN
+F 3 "" H 5225 3125 60  0001 C CNN
+	1    5850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0C53
+P 5600 3400
+AR Path="/605E0C53" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0C53" Ref="D21"  Part="1" 
+F 0 "D21" V 5646 3330 50  0000 R CNN
+F 1 "D_Small" V 5555 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5600 3400 50  0001 C CNN
+F 3 "~" V 5600 3400 50  0001 C CNN
+	1    5600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 3300 5800 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C5E
+P 6350 3150
+AR Path="/605E0C5E" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C5E" Ref="MX22"  Part="1" 
+F 0 "MX22" H 6150 3200 60  0000 C CNN
+F 1 "U" H 6150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5725 3125 60  0001 C CNN
+F 3 "" H 5725 3125 60  0001 C CNN
+	1    6350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0C68
+P 6100 3400
+AR Path="/605E0C68" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0C68" Ref="D22"  Part="1" 
+F 0 "D22" V 6146 3330 50  0000 R CNN
+F 1 "D_Small" V 6055 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6100 3400 50  0001 C CNN
+F 3 "~" V 6100 3400 50  0001 C CNN
+	1    6100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3300 6300 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C73
+P 6850 3150
+AR Path="/605E0C73" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C73" Ref="MX23"  Part="1" 
+F 0 "MX23" H 6650 3200 60  0000 C CNN
+F 1 "I" H 6650 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6225 3125 60  0001 C CNN
+F 3 "" H 6225 3125 60  0001 C CNN
+	1    6850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0C7D
+P 6600 3400
+AR Path="/605E0C7D" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0C7D" Ref="D23"  Part="1" 
+F 0 "D23" V 6646 3330 50  0000 R CNN
+F 1 "D_Small" V 6555 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6600 3400 50  0001 C CNN
+F 3 "~" V 6600 3400 50  0001 C CNN
+	1    6600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 3300 6800 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C88
+P 5850 3650
+AR Path="/605E0C88" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C88" Ref="MX35"  Part="1" 
+F 0 "MX35" H 5650 3700 60  0000 C CNN
+F 1 "H" H 5650 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5225 3625 60  0001 C CNN
+F 3 "" H 5225 3625 60  0001 C CNN
+	1    5850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0C92
+P 5600 3900
+AR Path="/605E0C92" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0C92" Ref="D35"  Part="1" 
+F 0 "D35" V 5646 3830 50  0000 R CNN
+F 1 "D_Small" V 5555 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5600 3900 50  0001 C CNN
+F 3 "~" V 5600 3900 50  0001 C CNN
+	1    5600 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 3800 5800 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0C9D
+P 6350 3650
+AR Path="/605E0C9D" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0C9D" Ref="MX36"  Part="1" 
+F 0 "MX36" H 6150 3700 60  0000 C CNN
+F 1 "J" H 6150 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5725 3625 60  0001 C CNN
+F 3 "" H 5725 3625 60  0001 C CNN
+	1    6350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0CA7
+P 6100 3900
+AR Path="/605E0CA7" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0CA7" Ref="D36"  Part="1" 
+F 0 "D36" V 6146 3830 50  0000 R CNN
+F 1 "D_Small" V 6055 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6100 3900 50  0001 C CNN
+F 3 "~" V 6100 3900 50  0001 C CNN
+	1    6100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3800 6300 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0CB2
+P 6850 3650
+AR Path="/605E0CB2" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0CB2" Ref="MX37"  Part="1" 
+F 0 "MX37" H 6650 3700 60  0000 C CNN
+F 1 "K" H 6650 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6225 3625 60  0001 C CNN
+F 3 "" H 6225 3625 60  0001 C CNN
+	1    6850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0CBC
+P 6600 3900
+AR Path="/605E0CBC" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0CBC" Ref="D37"  Part="1" 
+F 0 "D37" V 6646 3830 50  0000 R CNN
+F 1 "D_Small" V 6555 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6600 3900 50  0001 C CNN
+F 3 "~" V 6600 3900 50  0001 C CNN
+	1    6600 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 3800 6800 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0CC7
+P 7350 2650
+AR Path="/605E0CC7" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0CC7" Ref="MX10"  Part="1" 
+F 0 "MX10" H 7150 2700 60  0000 C CNN
+F 1 "#9" H 7150 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6725 2625 60  0001 C CNN
+F 3 "" H 6725 2625 60  0001 C CNN
+	1    7350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0CD1
+P 7100 2900
+AR Path="/605E0CD1" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0CD1" Ref="D10"  Part="1" 
+F 0 "D10" V 7146 2830 50  0000 R CNN
+F 1 "D_Small" V 7055 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7100 2900 50  0001 C CNN
+F 3 "~" V 7100 2900 50  0001 C CNN
+	1    7100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 2800 7300 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0CDC
+P 7850 2650
+AR Path="/605E0CDC" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0CDC" Ref="MX11"  Part="1" 
+F 0 "MX11" H 7650 2700 60  0000 C CNN
+F 1 "#0" H 7650 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7225 2625 60  0001 C CNN
+F 3 "" H 7225 2625 60  0001 C CNN
+	1    7850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0CE6
+P 7600 2900
+AR Path="/605E0CE6" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0CE6" Ref="D11"  Part="1" 
+F 0 "D11" V 7646 2830 50  0000 R CNN
+F 1 "D_Small" V 7555 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7600 2900 50  0001 C CNN
+F 3 "~" V 7600 2900 50  0001 C CNN
+	1    7600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 2800 7800 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0CF1
+P 8350 2650
+AR Path="/605E0CF1" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0CF1" Ref="MX12"  Part="1" 
+F 0 "MX12" H 8150 2700 60  0000 C CNN
+F 1 "-_" H 8150 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7725 2625 60  0001 C CNN
+F 3 "" H 7725 2625 60  0001 C CNN
+	1    8350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0CFB
+P 8100 2900
+AR Path="/605E0CFB" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0CFB" Ref="D12"  Part="1" 
+F 0 "D12" V 8146 2830 50  0000 R CNN
+F 1 "D_Small" V 8055 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8100 2900 50  0001 C CNN
+F 3 "~" V 8100 2900 50  0001 C CNN
+	1    8100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 2800 8300 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0D06
+P 7350 3150
+AR Path="/605E0D06" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0D06" Ref="MX24"  Part="1" 
+F 0 "MX24" H 7150 3200 60  0000 C CNN
+F 1 "O" H 7150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6725 3125 60  0001 C CNN
+F 3 "" H 6725 3125 60  0001 C CNN
+	1    7350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0D10
+P 7100 3400
+AR Path="/605E0D10" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0D10" Ref="D24"  Part="1" 
+F 0 "D24" V 7146 3330 50  0000 R CNN
+F 1 "D_Small" V 7055 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7100 3400 50  0001 C CNN
+F 3 "~" V 7100 3400 50  0001 C CNN
+	1    7100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3300 7300 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0D1B
+P 7850 3150
+AR Path="/605E0D1B" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0D1B" Ref="MX25"  Part="1" 
+F 0 "MX25" H 7650 3200 60  0000 C CNN
+F 1 "P" H 7650 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7225 3125 60  0001 C CNN
+F 3 "" H 7225 3125 60  0001 C CNN
+	1    7850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0D25
+P 7600 3400
+AR Path="/605E0D25" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0D25" Ref="D25"  Part="1" 
+F 0 "D25" V 7646 3330 50  0000 R CNN
+F 1 "D_Small" V 7555 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7600 3400 50  0001 C CNN
+F 3 "~" V 7600 3400 50  0001 C CNN
+	1    7600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 3300 7800 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0D30
+P 8350 3150
+AR Path="/605E0D30" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0D30" Ref="MX26"  Part="1" 
+F 0 "MX26" H 8150 3200 60  0000 C CNN
+F 1 "[{" H 8150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7725 3125 60  0001 C CNN
+F 3 "" H 7725 3125 60  0001 C CNN
+	1    8350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0D3A
+P 8100 3400
+AR Path="/605E0D3A" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0D3A" Ref="D26"  Part="1" 
+F 0 "D26" V 8146 3330 50  0000 R CNN
+F 1 "D_Small" V 8055 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8100 3400 50  0001 C CNN
+F 3 "~" V 8100 3400 50  0001 C CNN
+	1    8100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 3300 8300 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0D45
+P 7350 3650
+AR Path="/605E0D45" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0D45" Ref="MX38"  Part="1" 
+F 0 "MX38" H 7150 3700 60  0000 C CNN
+F 1 "L" H 7150 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6725 3625 60  0001 C CNN
+F 3 "" H 6725 3625 60  0001 C CNN
+	1    7350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0D4F
+P 7100 3900
+AR Path="/605E0D4F" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0D4F" Ref="D38"  Part="1" 
+F 0 "D38" V 7146 3830 50  0000 R CNN
+F 1 "D_Small" V 7055 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7100 3900 50  0001 C CNN
+F 3 "~" V 7100 3900 50  0001 C CNN
+	1    7100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3800 7300 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0D5A
+P 7850 3650
+AR Path="/605E0D5A" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0D5A" Ref="MX39"  Part="1" 
+F 0 "MX39" H 7650 3700 60  0000 C CNN
+F 1 ";:" H 7650 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7225 3625 60  0001 C CNN
+F 3 "" H 7225 3625 60  0001 C CNN
+	1    7850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0D64
+P 7600 3900
+AR Path="/605E0D64" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0D64" Ref="D39"  Part="1" 
+F 0 "D39" V 7646 3830 50  0000 R CNN
+F 1 "D_Small" V 7555 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7600 3900 50  0001 C CNN
+F 3 "~" V 7600 3900 50  0001 C CNN
+	1    7600 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 3800 7800 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 605E0D6F
+P 8350 3650
+AR Path="/605E0D6F" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/605E0D6F" Ref="MX40"  Part="1" 
+F 0 "MX40" H 8150 3700 60  0000 C CNN
+F 1 "'\"" H 8150 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7725 3625 60  0001 C CNN
+F 3 "" H 7725 3625 60  0001 C CNN
+	1    8350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 605E0D79
+P 8100 3900
+AR Path="/605E0D79" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/605E0D79" Ref="D40"  Part="1" 
+F 0 "D40" V 8146 3830 50  0000 R CNN
+F 1 "D_Small" V 8055 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8100 3900 50  0001 C CNN
+F 3 "~" V 8100 3900 50  0001 C CNN
+	1    8100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 3800 8300 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 606012AA
+P 8850 2650
+AR Path="/606012AA" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/606012AA" Ref="MX13"  Part="1" 
+F 0 "MX13" H 8650 2700 60  0000 C CNN
+F 1 "=+" H 8650 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8225 2625 60  0001 C CNN
+F 3 "" H 8225 2625 60  0001 C CNN
+	1    8850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 606012C4
+P 8600 2900
+AR Path="/606012C4" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/606012C4" Ref="D13"  Part="1" 
+F 0 "D13" V 8646 2830 50  0000 R CNN
+F 1 "D_Small" V 8555 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8600 2900 50  0001 C CNN
+F 3 "~" V 8600 2900 50  0001 C CNN
+	1    8600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2800 8800 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 606012CF
+P 9350 2650
+AR Path="/606012CF" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/606012CF" Ref="MX14"  Part="1" 
+F 0 "MX14" H 9150 2700 60  0000 C CNN
+F 1 "BSPC" H 9150 2650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8725 2625 60  0001 C CNN
+F 3 "" H 8725 2625 60  0001 C CNN
+	1    9350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 606012D9
+P 9100 2900
+AR Path="/606012D9" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/606012D9" Ref="D14"  Part="1" 
+F 0 "D14" V 9146 2830 50  0000 R CNN
+F 1 "D_Small" V 9055 2830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 9100 2900 50  0001 C CNN
+F 3 "~" V 9100 2900 50  0001 C CNN
+	1    9100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 2800 9300 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 606012F9
+P 8850 3150
+AR Path="/606012F9" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/606012F9" Ref="MX27"  Part="1" 
+F 0 "MX27" H 8650 3200 60  0000 C CNN
+F 1 "]}" H 8650 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8225 3125 60  0001 C CNN
+F 3 "" H 8225 3125 60  0001 C CNN
+	1    8850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60601303
+P 8600 3400
+AR Path="/60601303" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/60601303" Ref="D27"  Part="1" 
+F 0 "D27" V 8646 3330 50  0000 R CNN
+F 1 "D_Small" V 8555 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8600 3400 50  0001 C CNN
+F 3 "~" V 8600 3400 50  0001 C CNN
+	1    8600 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 3300 8800 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060130E
+P 9350 3150
+AR Path="/6060130E" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060130E" Ref="MX28"  Part="1" 
+F 0 "MX28" H 9150 3200 60  0000 C CNN
+F 1 "\\|" H 9150 3150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8725 3125 60  0001 C CNN
+F 3 "" H 8725 3125 60  0001 C CNN
+	1    9350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60601318
+P 9100 3400
+AR Path="/60601318" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/60601318" Ref="D28"  Part="1" 
+F 0 "D28" V 9146 3330 50  0000 R CNN
+F 1 "D_Small" V 9055 3330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 9100 3400 50  0001 C CNN
+F 3 "~" V 9100 3400 50  0001 C CNN
+	1    9100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 3300 9300 3300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060134D
+P 9350 3650
+AR Path="/6060134D" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060134D" Ref="MX41"  Part="1" 
+F 0 "MX41" H 9150 3700 60  0000 C CNN
+F 1 "ENTER" H 9150 3650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8725 3625 60  0001 C CNN
+F 3 "" H 8725 3625 60  0001 C CNN
+	1    9350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60601357
+P 9100 3900
+AR Path="/60601357" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/60601357" Ref="D41"  Part="1" 
+F 0 "D41" V 9146 3830 50  0000 R CNN
+F 1 "D_Small" V 9055 3830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 9100 3900 50  0001 C CNN
+F 3 "~" V 9100 3900 50  0001 C CNN
+	1    9100 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 3800 9300 3800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D4C5
+P 2850 4150
+AR Path="/6060D4C5" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D4C5" Ref="MX42"  Part="1" 
+F 0 "MX42" H 2650 4200 60  0000 C CNN
+F 1 "LSHIFT" H 2650 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2225 4125 60  0001 C CNN
+F 3 "" H 2225 4125 60  0001 C CNN
+	1    2850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D4CF
+P 2600 4400
+AR Path="/6060D4CF" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D4CF" Ref="D42"  Part="1" 
+F 0 "D42" V 2646 4330 50  0000 R CNN
+F 1 "D_Small" V 2555 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2600 4400 50  0001 C CNN
+F 3 "~" V 2600 4400 50  0001 C CNN
+	1    2600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 4300 2800 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D4DA
+P 3350 4150
+AR Path="/6060D4DA" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D4DA" Ref="MX43"  Part="1" 
+F 0 "MX43" H 3150 4200 60  0000 C CNN
+F 1 "Z" H 3150 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2725 4125 60  0001 C CNN
+F 3 "" H 2725 4125 60  0001 C CNN
+	1    3350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D4E4
+P 3100 4400
+AR Path="/6060D4E4" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D4E4" Ref="D43"  Part="1" 
+F 0 "D43" V 3146 4330 50  0000 R CNN
+F 1 "D_Small" V 3055 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3100 4400 50  0001 C CNN
+F 3 "~" V 3100 4400 50  0001 C CNN
+	1    3100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 4300 3300 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D4EF
+P 3850 4150
+AR Path="/6060D4EF" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D4EF" Ref="MX44"  Part="1" 
+F 0 "MX44" H 3650 4200 60  0000 C CNN
+F 1 "X" H 3650 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3225 4125 60  0001 C CNN
+F 3 "" H 3225 4125 60  0001 C CNN
+	1    3850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D4F9
+P 3600 4400
+AR Path="/6060D4F9" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D4F9" Ref="D44"  Part="1" 
+F 0 "D44" V 3646 4330 50  0000 R CNN
+F 1 "D_Small" V 3555 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 4400 50  0001 C CNN
+F 3 "~" V 3600 4400 50  0001 C CNN
+	1    3600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 4300 3800 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D504
+P 2850 4650
+AR Path="/6060D504" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D504" Ref="MX54"  Part="1" 
+F 0 "MX54" H 2650 4700 60  0000 C CNN
+F 1 "LCTRL" H 2650 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2225 4625 60  0001 C CNN
+F 3 "" H 2225 4625 60  0001 C CNN
+	1    2850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D50E
+P 2600 4900
+AR Path="/6060D50E" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D50E" Ref="D54"  Part="1" 
+F 0 "D54" V 2646 4830 50  0000 R CNN
+F 1 "D_Small" V 2555 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 2600 4900 50  0001 C CNN
+F 3 "~" V 2600 4900 50  0001 C CNN
+	1    2600 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 4800 2800 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D519
+P 3350 4650
+AR Path="/6060D519" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D519" Ref="MX55"  Part="1" 
+F 0 "MX55" H 3150 4700 60  0000 C CNN
+F 1 "CMD" H 3150 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2725 4625 60  0001 C CNN
+F 3 "" H 2725 4625 60  0001 C CNN
+	1    3350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D523
+P 3100 4900
+AR Path="/6060D523" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D523" Ref="D55"  Part="1" 
+F 0 "D55" V 3146 4830 50  0000 R CNN
+F 1 "D_Small" V 3055 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3100 4900 50  0001 C CNN
+F 3 "~" V 3100 4900 50  0001 C CNN
+	1    3100 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 4800 3300 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D52E
+P 3850 4650
+AR Path="/6060D52E" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D52E" Ref="MX56"  Part="1" 
+F 0 "MX56" H 3650 4700 60  0000 C CNN
+F 1 "LALT" H 3650 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3225 4625 60  0001 C CNN
+F 3 "" H 3225 4625 60  0001 C CNN
+	1    3850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D538
+P 3600 4900
+AR Path="/6060D538" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D538" Ref="D56"  Part="1" 
+F 0 "D56" V 3646 4830 50  0000 R CNN
+F 1 "D_Small" V 3555 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 3600 4900 50  0001 C CNN
+F 3 "~" V 3600 4900 50  0001 C CNN
+	1    3600 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 4800 3800 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D543
+P 4350 4150
+AR Path="/6060D543" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D543" Ref="MX45"  Part="1" 
+F 0 "MX45" H 4150 4200 60  0000 C CNN
+F 1 "C" H 4150 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3725 4125 60  0001 C CNN
+F 3 "" H 3725 4125 60  0001 C CNN
+	1    4350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D54D
+P 4100 4400
+AR Path="/6060D54D" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D54D" Ref="D45"  Part="1" 
+F 0 "D45" V 4146 4330 50  0000 R CNN
+F 1 "D_Small" V 4055 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4100 4400 50  0001 C CNN
+F 3 "~" V 4100 4400 50  0001 C CNN
+	1    4100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4300 4300 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D558
+P 4850 4150
+AR Path="/6060D558" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D558" Ref="MX46"  Part="1" 
+F 0 "MX46" H 4650 4200 60  0000 C CNN
+F 1 "V" H 4650 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4225 4125 60  0001 C CNN
+F 3 "" H 4225 4125 60  0001 C CNN
+	1    4850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D562
+P 4600 4400
+AR Path="/6060D562" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D562" Ref="D46"  Part="1" 
+F 0 "D46" V 4646 4330 50  0000 R CNN
+F 1 "D_Small" V 4555 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 4600 4400 50  0001 C CNN
+F 3 "~" V 4600 4400 50  0001 C CNN
+	1    4600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 4300 4800 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D56D
+P 5350 4150
+AR Path="/6060D56D" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D56D" Ref="MX47"  Part="1" 
+F 0 "MX47" H 5150 4200 60  0000 C CNN
+F 1 "B" H 5150 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4725 4125 60  0001 C CNN
+F 3 "" H 4725 4125 60  0001 C CNN
+	1    5350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D577
+P 5100 4400
+AR Path="/6060D577" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D577" Ref="D47"  Part="1" 
+F 0 "D47" V 5146 4330 50  0000 R CNN
+F 1 "D_Small" V 5055 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5100 4400 50  0001 C CNN
+F 3 "~" V 5100 4400 50  0001 C CNN
+	1    5100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 4300 5300 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D5C1
+P 5850 4150
+AR Path="/6060D5C1" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D5C1" Ref="MX48"  Part="1" 
+F 0 "MX48" H 5650 4200 60  0000 C CNN
+F 1 "N" H 5650 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5225 4125 60  0001 C CNN
+F 3 "" H 5225 4125 60  0001 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D5CB
+P 5600 4400
+AR Path="/6060D5CB" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D5CB" Ref="D48"  Part="1" 
+F 0 "D48" V 5646 4330 50  0000 R CNN
+F 1 "D_Small" V 5555 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5600 4400 50  0001 C CNN
+F 3 "~" V 5600 4400 50  0001 C CNN
+	1    5600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4300 5800 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D5D6
+P 6350 4150
+AR Path="/6060D5D6" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D5D6" Ref="MX49"  Part="1" 
+F 0 "MX49" H 6150 4200 60  0000 C CNN
+F 1 "M" H 6150 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5725 4125 60  0001 C CNN
+F 3 "" H 5725 4125 60  0001 C CNN
+	1    6350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D5E0
+P 6100 4400
+AR Path="/6060D5E0" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D5E0" Ref="D49"  Part="1" 
+F 0 "D49" V 6146 4330 50  0000 R CNN
+F 1 "D_Small" V 6055 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6100 4400 50  0001 C CNN
+F 3 "~" V 6100 4400 50  0001 C CNN
+	1    6100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 4300 6300 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D5EB
+P 6850 4150
+AR Path="/6060D5EB" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D5EB" Ref="MX50"  Part="1" 
+F 0 "MX50" H 6650 4200 60  0000 C CNN
+F 1 ",<" H 6650 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6225 4125 60  0001 C CNN
+F 3 "" H 6225 4125 60  0001 C CNN
+	1    6850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D5F5
+P 6600 4400
+AR Path="/6060D5F5" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D5F5" Ref="D50"  Part="1" 
+F 0 "D50" V 6646 4330 50  0000 R CNN
+F 1 "D_Small" V 6555 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6600 4400 50  0001 C CNN
+F 3 "~" V 6600 4400 50  0001 C CNN
+	1    6600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4300 6800 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D600
+P 5850 4650
+AR Path="/6060D600" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D600" Ref="MX57"  Part="1" 
+F 0 "MX57" H 5650 4700 60  0000 C CNN
+F 1 "SPACE" H 5650 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5225 4625 60  0001 C CNN
+F 3 "" H 5225 4625 60  0001 C CNN
+	1    5850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D60A
+P 5600 4900
+AR Path="/6060D60A" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D60A" Ref="D57"  Part="1" 
+F 0 "D57" V 5646 4830 50  0000 R CNN
+F 1 "D_Small" V 5555 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5600 4900 50  0001 C CNN
+F 3 "~" V 5600 4900 50  0001 C CNN
+	1    5600 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 4800 5800 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D63F
+P 7350 4150
+AR Path="/6060D63F" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D63F" Ref="MX51"  Part="1" 
+F 0 "MX51" H 7150 4200 60  0000 C CNN
+F 1 ".>" H 7150 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6725 4125 60  0001 C CNN
+F 3 "" H 6725 4125 60  0001 C CNN
+	1    7350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D649
+P 7100 4400
+AR Path="/6060D649" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D649" Ref="D51"  Part="1" 
+F 0 "D51" V 7146 4330 50  0000 R CNN
+F 1 "D_Small" V 7055 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7100 4400 50  0001 C CNN
+F 3 "~" V 7100 4400 50  0001 C CNN
+	1    7100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 4300 7300 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D654
+P 7850 4150
+AR Path="/6060D654" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D654" Ref="MX52"  Part="1" 
+F 0 "MX52" H 7650 4200 60  0000 C CNN
+F 1 "/?" H 7650 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7225 4125 60  0001 C CNN
+F 3 "" H 7225 4125 60  0001 C CNN
+	1    7850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D65E
+P 7600 4400
+AR Path="/6060D65E" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D65E" Ref="D52"  Part="1" 
+F 0 "D52" V 7646 4330 50  0000 R CNN
+F 1 "D_Small" V 7555 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7600 4400 50  0001 C CNN
+F 3 "~" V 7600 4400 50  0001 C CNN
+	1    7600 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 4300 7800 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D693
+P 7850 4650
+AR Path="/6060D693" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D693" Ref="MX58"  Part="1" 
+F 0 "MX58" H 7650 4700 60  0000 C CNN
+F 1 "RALT" H 7650 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7225 4625 60  0001 C CNN
+F 3 "" H 7225 4625 60  0001 C CNN
+	1    7850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D69D
+P 7600 4900
+AR Path="/6060D69D" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D69D" Ref="D58"  Part="1" 
+F 0 "D58" V 7646 4830 50  0000 R CNN
+F 1 "D_Small" V 7555 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7600 4900 50  0001 C CNN
+F 3 "~" V 7600 4900 50  0001 C CNN
+	1    7600 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 4800 7800 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D6A8
+P 8350 4650
+AR Path="/6060D6A8" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D6A8" Ref="MX59"  Part="1" 
+F 0 "MX59" H 8150 4700 60  0000 C CNN
+F 1 "CMD" H 8150 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7725 4625 60  0001 C CNN
+F 3 "" H 7725 4625 60  0001 C CNN
+	1    8350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D6B2
+P 8100 4900
+AR Path="/6060D6B2" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D6B2" Ref="D59"  Part="1" 
+F 0 "D59" V 8146 4830 50  0000 R CNN
+F 1 "D_Small" V 8055 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8100 4900 50  0001 C CNN
+F 3 "~" V 8100 4900 50  0001 C CNN
+	1    8100 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 4800 8300 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D6D2
+P 9350 4150
+AR Path="/6060D6D2" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D6D2" Ref="MX53"  Part="1" 
+F 0 "MX53" H 9150 4200 60  0000 C CNN
+F 1 "RSHIFT" H 9150 4150 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8725 4125 60  0001 C CNN
+F 3 "" H 8725 4125 60  0001 C CNN
+	1    9350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D6DC
+P 9100 4400
+AR Path="/6060D6DC" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D6DC" Ref="D53"  Part="1" 
+F 0 "D53" V 9146 4330 50  0000 R CNN
+F 1 "D_Small" V 9055 4330 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 9100 4400 50  0001 C CNN
+F 3 "~" V 9100 4400 50  0001 C CNN
+	1    9100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 4300 9300 4300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D6FC
+P 8850 4650
+AR Path="/6060D6FC" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D6FC" Ref="MX60"  Part="1" 
+F 0 "MX60" H 8650 4700 60  0000 C CNN
+F 1 "FN" H 8650 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8225 4625 60  0001 C CNN
+F 3 "" H 8225 4625 60  0001 C CNN
+	1    8850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D706
+P 8600 4900
+AR Path="/6060D706" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D706" Ref="D60"  Part="1" 
+F 0 "D60" V 8646 4830 50  0000 R CNN
+F 1 "D_Small" V 8555 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8600 4900 50  0001 C CNN
+F 3 "~" V 8600 4900 50  0001 C CNN
+	1    8600 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 4800 8800 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D711
+P 9350 4650
+AR Path="/6060D711" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D711" Ref="MX61"  Part="1" 
+F 0 "MX61" H 9150 4700 60  0000 C CNN
+F 1 "RCTRL" H 9150 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8725 4625 60  0001 C CNN
+F 3 "" H 8725 4625 60  0001 C CNN
+	1    9350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D71B
+P 9100 4900
+AR Path="/6060D71B" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D71B" Ref="D61"  Part="1" 
+F 0 "D61" V 9146 4830 50  0000 R CNN
+F 1 "D_Small" V 9055 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 9100 4900 50  0001 C CNN
+F 3 "~" V 9100 4900 50  0001 C CNN
+	1    9100 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 4800 9300 4800
+Wire Wire Line
+	9500 2000 9500 2600
+Connection ~ 9500 2600
+Wire Wire Line
+	9500 2600 9500 3100
+Connection ~ 9500 3100
+Wire Wire Line
+	9500 3100 9500 3600
+Connection ~ 9500 3600
+Wire Wire Line
+	9500 3600 9500 4100
+Connection ~ 9500 4100
+Wire Wire Line
+	9500 4100 9500 4600
+Wire Wire Line
+	9000 4600 9000 3100
+Connection ~ 9000 2600
+Wire Wire Line
+	9000 2600 9000 2000
+Connection ~ 9000 3100
+Wire Wire Line
+	9000 3100 9000 2600
+Wire Wire Line
+	8500 2000 8500 2600
+Connection ~ 8500 2600
+Wire Wire Line
+	8500 2600 8500 3100
+Connection ~ 8500 3100
+Wire Wire Line
+	8500 3100 8500 3600
+Connection ~ 8500 3600
+Wire Wire Line
+	8500 3600 8500 4600
+Wire Wire Line
+	8000 2000 8000 2600
+Connection ~ 8000 2600
+Wire Wire Line
+	8000 2600 8000 3100
+Connection ~ 8000 3100
+Wire Wire Line
+	8000 3100 8000 3600
+Connection ~ 8000 3600
+Wire Wire Line
+	8000 3600 8000 4100
+Connection ~ 8000 4100
+Wire Wire Line
+	8000 4100 8000 4600
+Wire Wire Line
+	7500 2000 7500 2600
+Connection ~ 7500 2600
+Wire Wire Line
+	7500 2600 7500 3100
+Connection ~ 7500 3100
+Wire Wire Line
+	7500 3100 7500 3600
+Connection ~ 7500 3600
+Wire Wire Line
+	7500 3600 7500 4100
+Wire Wire Line
+	7000 2000 7000 2600
+Connection ~ 7000 2600
+Wire Wire Line
+	7000 2600 7000 3100
+Connection ~ 7000 3100
+Wire Wire Line
+	7000 3100 7000 3600
+Connection ~ 7000 3600
+Wire Wire Line
+	7000 3600 7000 4100
+Wire Wire Line
+	6500 2000 6500 2600
+Connection ~ 6500 2600
+Wire Wire Line
+	6500 2600 6500 3100
+Connection ~ 6500 3100
+Wire Wire Line
+	6500 3100 6500 3600
+Connection ~ 6500 3600
+Wire Wire Line
+	6500 3600 6500 4100
+Wire Wire Line
+	6000 2000 6000 2600
+Connection ~ 6000 2600
+Wire Wire Line
+	6000 2600 6000 3100
+Connection ~ 6000 3100
+Wire Wire Line
+	6000 3100 6000 3600
+Connection ~ 6000 3600
+Wire Wire Line
+	6000 3600 6000 4100
+Connection ~ 6000 4100
+Wire Wire Line
+	6000 4100 6000 4600
+Wire Wire Line
+	5500 2000 5500 2600
+Connection ~ 5500 2600
+Wire Wire Line
+	5500 2600 5500 3100
+Connection ~ 5500 3100
+Wire Wire Line
+	5500 3100 5500 3600
+Connection ~ 5500 3600
+Wire Wire Line
+	5500 3600 5500 4100
+Wire Wire Line
+	5000 2000 5000 2600
+Connection ~ 5000 2600
+Wire Wire Line
+	5000 2600 5000 3100
+Connection ~ 5000 3100
+Wire Wire Line
+	5000 3100 5000 3600
+Connection ~ 5000 3600
+Wire Wire Line
+	5000 3600 5000 4100
+Wire Wire Line
+	4500 2000 4500 2600
+Connection ~ 4500 2600
+Wire Wire Line
+	4500 2600 4500 3100
+Connection ~ 4500 3100
+Wire Wire Line
+	4500 3100 4500 3600
+Connection ~ 4500 3600
+Wire Wire Line
+	4500 3600 4500 4100
+Wire Wire Line
+	4000 2000 4000 2600
+Connection ~ 4000 2600
+Wire Wire Line
+	4000 2600 4000 3100
+Connection ~ 4000 3100
+Wire Wire Line
+	4000 3100 4000 3600
+Connection ~ 4000 3600
+Wire Wire Line
+	4000 3600 4000 4100
+Connection ~ 4000 4100
+Wire Wire Line
+	4000 4100 4000 4600
+Wire Wire Line
+	3500 2000 3500 2600
+Connection ~ 3500 2600
+Wire Wire Line
+	3500 2600 3500 3100
+Connection ~ 3500 3100
+Wire Wire Line
+	3500 3100 3500 3600
+Connection ~ 3500 3600
+Wire Wire Line
+	3500 3600 3500 4100
+Connection ~ 3500 4100
+Wire Wire Line
+	3500 4100 3500 4600
+Wire Wire Line
+	3000 2000 3000 2600
+Connection ~ 3000 2600
+Wire Wire Line
+	3000 2600 3000 3100
+Connection ~ 3000 3100
+Wire Wire Line
+	3000 3100 3000 3600
+Connection ~ 3000 3600
+Wire Wire Line
+	3000 3600 3000 4100
+Connection ~ 3000 4100
+Wire Wire Line
+	3000 4100 3000 4600
+Wire Wire Line
+	2000 3000 2600 3000
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3000 3100 3000
+Connection ~ 3100 3000
+Wire Wire Line
+	3100 3000 3600 3000
+Connection ~ 3600 3000
+Wire Wire Line
+	3600 3000 4100 3000
+Connection ~ 4100 3000
+Wire Wire Line
+	4100 3000 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 5100 3000
+Connection ~ 5100 3000
+Wire Wire Line
+	5100 3000 5600 3000
+Connection ~ 5600 3000
+Wire Wire Line
+	5600 3000 6100 3000
+Connection ~ 6100 3000
+Wire Wire Line
+	6100 3000 6600 3000
+Connection ~ 6600 3000
+Wire Wire Line
+	6600 3000 7100 3000
+Connection ~ 7100 3000
+Wire Wire Line
+	7100 3000 7600 3000
+Connection ~ 7600 3000
+Wire Wire Line
+	7600 3000 8100 3000
+Connection ~ 8100 3000
+Wire Wire Line
+	8100 3000 8600 3000
+Connection ~ 8600 3000
+Wire Wire Line
+	8600 3000 9100 3000
+Wire Wire Line
+	2000 3500 2600 3500
+Connection ~ 2600 3500
+Wire Wire Line
+	2600 3500 3100 3500
+Connection ~ 3100 3500
+Wire Wire Line
+	3100 3500 3600 3500
+Connection ~ 3600 3500
+Wire Wire Line
+	3600 3500 4100 3500
+Connection ~ 4100 3500
+Wire Wire Line
+	4100 3500 4600 3500
+Connection ~ 4600 3500
+Wire Wire Line
+	4600 3500 5100 3500
+Connection ~ 5100 3500
+Wire Wire Line
+	5100 3500 5600 3500
+Connection ~ 5600 3500
+Wire Wire Line
+	5600 3500 6100 3500
+Connection ~ 6100 3500
+Wire Wire Line
+	6100 3500 6600 3500
+Connection ~ 6600 3500
+Wire Wire Line
+	6600 3500 7100 3500
+Connection ~ 7100 3500
+Wire Wire Line
+	7100 3500 7600 3500
+Connection ~ 7600 3500
+Wire Wire Line
+	7600 3500 8100 3500
+Connection ~ 8100 3500
+Wire Wire Line
+	8100 3500 8600 3500
+Connection ~ 8600 3500
+Wire Wire Line
+	8600 3500 9100 3500
+Wire Wire Line
+	2000 4000 2600 4000
+Connection ~ 2600 4000
+Wire Wire Line
+	2600 4000 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3100 4000 3600 4000
+Connection ~ 3600 4000
+Wire Wire Line
+	3600 4000 4100 4000
+Connection ~ 4100 4000
+Wire Wire Line
+	4100 4000 4600 4000
+Connection ~ 4600 4000
+Wire Wire Line
+	4600 4000 5100 4000
+Connection ~ 5100 4000
+Wire Wire Line
+	5100 4000 5600 4000
+Connection ~ 5600 4000
+Wire Wire Line
+	5600 4000 6100 4000
+Connection ~ 6100 4000
+Wire Wire Line
+	6100 4000 6600 4000
+Connection ~ 6600 4000
+Wire Wire Line
+	6600 4000 7100 4000
+Connection ~ 7100 4000
+Wire Wire Line
+	7100 4000 7600 4000
+Connection ~ 7600 4000
+Wire Wire Line
+	7600 4000 8100 4000
+Connection ~ 8100 4000
+Wire Wire Line
+	8100 4000 9100 4000
+Wire Wire Line
+	2000 4500 2600 4500
+Connection ~ 2600 4500
+Wire Wire Line
+	2600 4500 3100 4500
+Connection ~ 3100 4500
+Wire Wire Line
+	3100 4500 3600 4500
+Connection ~ 3600 4500
+Wire Wire Line
+	3600 4500 4100 4500
+Connection ~ 4100 4500
+Wire Wire Line
+	4100 4500 4600 4500
+Connection ~ 4600 4500
+Wire Wire Line
+	4600 4500 5100 4500
+Connection ~ 5100 4500
+Wire Wire Line
+	5100 4500 5600 4500
+Connection ~ 5600 4500
+Wire Wire Line
+	5600 4500 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6100 4500 6600 4500
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 4500 7100 4500
+Connection ~ 7100 4500
+Wire Wire Line
+	7100 4500 7600 4500
+Connection ~ 7600 4500
+Wire Wire Line
+	7600 4500 9100 4500
+Wire Wire Line
+	2000 5000 2600 5000
+Connection ~ 2600 5000
+Wire Wire Line
+	2600 5000 3100 5000
+Connection ~ 3100 5000
+Wire Wire Line
+	3100 5000 3600 5000
+Connection ~ 3600 5000
+Wire Wire Line
+	3600 5000 5600 5000
+Connection ~ 5600 5000
+Wire Wire Line
+	5600 5000 7600 5000
+Connection ~ 7600 5000
+Wire Wire Line
+	7600 5000 8100 5000
+Connection ~ 8100 5000
+Wire Wire Line
+	8100 5000 8600 5000
+Connection ~ 8600 5000
+Wire Wire Line
+	8600 5000 9100 5000
+Text GLabel 2000 3000 0    50   Input ~ 0
 ROW0
+Text GLabel 2000 3500 0    50   Input ~ 0
+ROW1
+Text GLabel 2000 4000 0    50   Input ~ 0
+ROW2
+Text GLabel 2000 4500 0    50   Input ~ 0
+ROW3
+Text GLabel 2000 5000 0    50   Input ~ 0
+ROW4
+Text GLabel 3000 2000 1    50   Input ~ 0
+COL0
+Text GLabel 3500 2000 1    50   Input ~ 0
+COL1
+Text GLabel 4000 2000 1    50   Input ~ 0
+COL2
+Text GLabel 4500 2000 1    50   Input ~ 0
+COL3
+Text GLabel 5000 2000 1    50   Input ~ 0
+COL4
+Text GLabel 5500 2000 1    50   Input ~ 0
+COL5
+Text GLabel 6000 2000 1    50   Input ~ 0
+COL6
+Text GLabel 6500 2000 1    50   Input ~ 0
+COL7
+Text GLabel 7000 2000 1    50   Input ~ 0
+COL8
+Text GLabel 7500 2000 1    50   Input ~ 0
+COL9
+Text GLabel 8000 2000 1    50   Input ~ 0
+COL10
+Text GLabel 8500 2000 1    50   Input ~ 0
+COL11
+Text GLabel 9000 2000 1    50   Input ~ 0
+COL12
+Text GLabel 9500 2000 1    50   Input ~ 0
+COL13
 $EndSCHEMATC

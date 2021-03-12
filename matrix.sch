@@ -1606,33 +1606,33 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 6060D600
-P 5850 4650
+P 5350 4650
 AR Path="/6060D600" Ref="MX?"  Part="1" 
 AR Path="/604A8D0E/6060D600" Ref="MX57"  Part="1" 
 AR Path="/6050FBE2/6060D600" Ref="MX?"  Part="1" 
-F 0 "MX57" H 5650 4700 60  0000 C CNN
-F 1 "SPACE" H 5650 4650 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-6.25U-NoLED" H 5225 4625 60  0001 C CNN
-F 3 "" H 5225 4625 60  0001 C CNN
-	1    5850 4650
+F 0 "MX57" H 5150 4700 60  0000 C CNN
+F 1 "SPACE" H 5150 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.25U-ReversedStabilizers-NoLED" H 4725 4625 60  0001 C CNN
+F 3 "" H 4725 4625 60  0001 C CNN
+	1    5350 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 6060D60A
-P 5600 4900
+P 5100 4900
 AR Path="/6060D60A" Ref="D?"  Part="1" 
 AR Path="/604A8D0E/6060D60A" Ref="D57"  Part="1" 
 AR Path="/6050FBE2/6060D60A" Ref="D?"  Part="1" 
-F 0 "D57" V 5646 4830 50  0000 R CNN
-F 1 "D_Small" V 5555 4830 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 5600 4900 50  0001 C CNN
-F 3 "~" V 5600 4900 50  0001 C CNN
-	1    5600 4900
+F 0 "D57" V 5146 4830 50  0000 R CNN
+F 1 "D_Small" V 5055 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5100 4900 50  0001 C CNN
+F 3 "~" V 5100 4900 50  0001 C CNN
+	1    5100 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5600 4800 5800 4800
+	5100 4800 5300 4800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 6060D63F
@@ -1696,12 +1696,42 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 6060D693
-P 7850 4650
+P 7350 4650
 AR Path="/6060D693" Ref="MX?"  Part="1" 
 AR Path="/604A8D0E/6060D693" Ref="MX58"  Part="1" 
 AR Path="/6050FBE2/6060D693" Ref="MX?"  Part="1" 
-F 0 "MX58" H 7650 4700 60  0000 C CNN
-F 1 "RALT" H 7650 4650 20  0000 C CNN
+F 0 "MX58" H 7150 4700 60  0000 C CNN
+F 1 "RALT" H 7150 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 6725 4625 60  0001 C CNN
+F 3 "" H 6725 4625 60  0001 C CNN
+	1    7350 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6060D69D
+P 7100 4900
+AR Path="/6060D69D" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D69D" Ref="D58"  Part="1" 
+AR Path="/6050FBE2/6060D69D" Ref="D?"  Part="1" 
+F 0 "D58" V 7146 4830 50  0000 R CNN
+F 1 "D_Small" V 7055 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7100 4900 50  0001 C CNN
+F 3 "~" V 7100 4900 50  0001 C CNN
+	1    7100 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 4800 7300 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6060D6A8
+P 7850 4650
+AR Path="/6060D6A8" Ref="MX?"  Part="1" 
+AR Path="/604A8D0E/6060D6A8" Ref="MX59"  Part="1" 
+AR Path="/6050FBE2/6060D6A8" Ref="MX?"  Part="1" 
+F 0 "MX59" H 7650 4700 60  0000 C CNN
+F 1 "RCMD" H 7650 4650 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 7225 4625 60  0001 C CNN
 F 3 "" H 7225 4625 60  0001 C CNN
 	1    7850 4650
@@ -1709,12 +1739,12 @@ F 3 "" H 7225 4625 60  0001 C CNN
 $EndComp
 $Comp
 L Device:D_Small D?
-U 1 1 6060D69D
+U 1 1 6060D6B2
 P 7600 4900
-AR Path="/6060D69D" Ref="D?"  Part="1" 
-AR Path="/604A8D0E/6060D69D" Ref="D58"  Part="1" 
-AR Path="/6050FBE2/6060D69D" Ref="D?"  Part="1" 
-F 0 "D58" V 7646 4830 50  0000 R CNN
+AR Path="/6060D6B2" Ref="D?"  Part="1" 
+AR Path="/604A8D0E/6060D6B2" Ref="D59"  Part="1" 
+AR Path="/6050FBE2/6060D6B2" Ref="D?"  Part="1" 
+F 0 "D59" V 7646 4830 50  0000 R CNN
 F 1 "D_Small" V 7555 4830 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 7600 4900 50  0001 C CNN
 F 3 "~" V 7600 4900 50  0001 C CNN
@@ -1723,36 +1753,6 @@ F 3 "~" V 7600 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7600 4800 7800 4800
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6060D6A8
-P 8350 4650
-AR Path="/6060D6A8" Ref="MX?"  Part="1" 
-AR Path="/604A8D0E/6060D6A8" Ref="MX59"  Part="1" 
-AR Path="/6050FBE2/6060D6A8" Ref="MX?"  Part="1" 
-F 0 "MX59" H 8150 4700 60  0000 C CNN
-F 1 "RCMD" H 8150 4650 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 7725 4625 60  0001 C CNN
-F 3 "" H 7725 4625 60  0001 C CNN
-	1    8350 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D?
-U 1 1 6060D6B2
-P 8100 4900
-AR Path="/6060D6B2" Ref="D?"  Part="1" 
-AR Path="/604A8D0E/6060D6B2" Ref="D59"  Part="1" 
-AR Path="/6050FBE2/6060D6B2" Ref="D?"  Part="1" 
-F 0 "D59" V 8146 4830 50  0000 R CNN
-F 1 "D_Small" V 8055 4830 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 8100 4900 50  0001 C CNN
-F 3 "~" V 8100 4900 50  0001 C CNN
-	1    8100 4900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8100 4800 8300 4800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 6060D6D2
@@ -1786,33 +1786,33 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 6060D6FC
-P 8850 4650
+P 8350 4650
 AR Path="/6060D6FC" Ref="MX?"  Part="1" 
 AR Path="/604A8D0E/6060D6FC" Ref="MX60"  Part="1" 
 AR Path="/6050FBE2/6060D6FC" Ref="MX?"  Part="1" 
-F 0 "MX60" H 8650 4700 60  0000 C CNN
-F 1 "FN" H 8650 4650 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 8225 4625 60  0001 C CNN
-F 3 "" H 8225 4625 60  0001 C CNN
-	1    8850 4650
+F 0 "MX60" H 8150 4700 60  0000 C CNN
+F 1 "FN" H 8150 4650 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 7725 4625 60  0001 C CNN
+F 3 "" H 7725 4625 60  0001 C CNN
+	1    8350 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D?
 U 1 1 6060D706
-P 8600 4900
+P 8100 4900
 AR Path="/6060D706" Ref="D?"  Part="1" 
 AR Path="/604A8D0E/6060D706" Ref="D60"  Part="1" 
 AR Path="/6050FBE2/6060D706" Ref="D?"  Part="1" 
-F 0 "D60" V 8646 4830 50  0000 R CNN
-F 1 "D_Small" V 8555 4830 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 8600 4900 50  0001 C CNN
-F 3 "~" V 8600 4900 50  0001 C CNN
-	1    8600 4900
+F 0 "D60" V 8146 4830 50  0000 R CNN
+F 1 "D_Small" V 8055 4830 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 8100 4900 50  0001 C CNN
+F 3 "~" V 8100 4900 50  0001 C CNN
+	1    8100 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8600 4800 8800 4800
+	8100 4800 8300 4800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 6060D711
@@ -1857,12 +1857,9 @@ Wire Wire Line
 Connection ~ 9500 4100
 Wire Wire Line
 	9500 4100 9500 4600
-Wire Wire Line
-	9000 4600 9000 3100
 Connection ~ 9000 2600
 Wire Wire Line
 	9000 2600 9000 2000
-Connection ~ 9000 3100
 Wire Wire Line
 	9000 3100 9000 2600
 Wire Wire Line
@@ -1873,9 +1870,6 @@ Wire Wire Line
 Connection ~ 8500 3100
 Wire Wire Line
 	8500 3100 8500 3600
-Connection ~ 8500 3600
-Wire Wire Line
-	8500 3600 8500 4600
 Wire Wire Line
 	8000 2000 8000 2600
 Connection ~ 8000 2600
@@ -1887,9 +1881,6 @@ Wire Wire Line
 Connection ~ 8000 3600
 Wire Wire Line
 	8000 3600 8000 4100
-Connection ~ 8000 4100
-Wire Wire Line
-	8000 4100 8000 4600
 Wire Wire Line
 	7500 2000 7500 2600
 Connection ~ 7500 2600
@@ -1934,9 +1925,6 @@ Wire Wire Line
 Connection ~ 6000 3600
 Wire Wire Line
 	6000 3600 6000 4100
-Connection ~ 6000 4100
-Wire Wire Line
-	6000 4100 6000 4600
 Wire Wire Line
 	5500 2000 5500 2600
 Connection ~ 5500 2600
@@ -2177,19 +2165,11 @@ Wire Wire Line
 	3100 5000 3600 5000
 Connection ~ 3600 5000
 Wire Wire Line
-	3600 5000 5600 5000
-Connection ~ 5600 5000
-Wire Wire Line
-	5600 5000 7600 5000
+	3600 5000 5100 5000
 Connection ~ 7600 5000
 Wire Wire Line
 	7600 5000 8100 5000
 Connection ~ 8100 5000
-Wire Wire Line
-	8100 5000 8600 5000
-Connection ~ 8600 5000
-Wire Wire Line
-	8600 5000 9100 5000
 Text HLabel 2000 3000 0    50   BiDi ~ 0
 ROW0
 Text HLabel 2000 3500 0    50   BiDi ~ 0
@@ -2228,4 +2208,24 @@ Text HLabel 9000 2000 1    50   BiDi ~ 0
 COL12
 Text HLabel 9500 2000 1    50   BiDi ~ 0
 COL13
+Connection ~ 7100 5000
+Wire Wire Line
+	7100 5000 7600 5000
+Wire Wire Line
+	8100 5000 9100 5000
+Wire Wire Line
+	7500 4100 7500 4600
+Connection ~ 7500 4100
+Wire Wire Line
+	8000 4600 8000 4100
+Connection ~ 8000 4100
+Wire Wire Line
+	8500 4600 8500 3600
+Connection ~ 8500 3600
+Connection ~ 5100 5000
+Wire Wire Line
+	5100 5000 7100 5000
+Wire Wire Line
+	5500 4100 5500 4600
+Connection ~ 5500 4100
 $EndSCHEMATC

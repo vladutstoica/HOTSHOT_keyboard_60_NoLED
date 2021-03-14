@@ -619,17 +619,17 @@ Text Label 7450 4400 2    50   ~ 0
 COL7
 Text Label 7450 4300 2    50   ~ 0
 COL8
-Text Label 7450 3000 2    50   ~ 0
+Text Label 7450 2500 2    50   ~ 0
 COL9
 Text Label 7450 1800 2    50   ~ 0
 COL10
-Text Label 7450 3100 2    50   ~ 0
+Text Label 7450 3000 2    50   ~ 0
 COL11
 Text Label 7450 2400 2    50   ~ 0
 COL3
 Text Label 7450 4200 2    50   ~ 0
 COL12
-Text Label 7450 3200 2    50   ~ 0
+Text Label 7450 3100 2    50   ~ 0
 COL13
 $Sheet
 S 8300 2850 550  2050
@@ -800,13 +800,7 @@ Entry Wire Line
 Entry Wire Line
 	7450 3100 7550 3200
 Entry Wire Line
-	7450 3200 7550 3300
-Entry Wire Line
-	7450 3300 7550 3400
-Entry Wire Line
 	7450 3400 7550 3500
-Entry Wire Line
-	7450 3500 7550 3600
 Entry Wire Line
 	7450 3600 7550 3700
 Entry Wire Line
@@ -854,17 +848,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 3600 7450 3600
 Wire Wire Line
-	7450 3500 6600 3500
-Wire Wire Line
 	6600 3400 7450 3400
 Wire Wire Line
-	7450 3300 6600 3300
-Wire Wire Line
-	6600 3200 7450 3200
-Wire Wire Line
 	7450 3100 6600 3100
-Wire Bus Line
-	7550 4850 7900 4850
 Wire Wire Line
 	3700 7050 3850 7050
 Wire Wire Line
@@ -1001,10 +987,15 @@ Entry Wire Line
 	7450 4000 7550 4100
 Wire Wire Line
 	6600 1800 7450 1800
-Wire Bus Line
-	7550 2300 7550 4850
-Wire Bus Line
-	7900 2850 7900 4850
 Entry Wire Line
 	7450 1800 7550 1900
+NoConn ~ 6600 3500
+NoConn ~ 6600 3300
+NoConn ~ 6600 3200
+Wire Bus Line
+	7550 4950 7900 4950
+Wire Bus Line
+	7550 1900 7550 4950
+Wire Bus Line
+	7900 2850 7900 4950
 $EndSCHEMATC

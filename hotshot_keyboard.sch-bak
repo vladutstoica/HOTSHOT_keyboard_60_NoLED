@@ -617,7 +617,7 @@ Text Label 7450 2800 2    50   ~ 0
 COL6
 Text Label 7450 4400 2    50   ~ 0
 COL7
-Text Label 7450 4300 2    50   ~ 0
+Text Label 7450 4200 2    50   ~ 0
 COL8
 Text Label 7450 2500 2    50   ~ 0
 COL9
@@ -627,7 +627,7 @@ Text Label 7450 3000 2    50   ~ 0
 COL11
 Text Label 7450 2400 2    50   ~ 0
 COL3
-Text Label 7450 4200 2    50   ~ 0
+Text Label 7450 4300 2    50   ~ 0
 COL12
 Text Label 7450 3100 2    50   ~ 0
 COL13
